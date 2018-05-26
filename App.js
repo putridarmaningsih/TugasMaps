@@ -16,39 +16,39 @@ export default class App extends Component {
       {
         key:1,
         latlng: {
-          latitude:-8.142070,
-          longitude: 115.096391
+          latitude:-8.116371,
+          longitude: 115.087887
         },
         title: 'Universitas Pendidikan Ganesha',
-        subtitle: 'Jl. Udayana Undiksa Kampus Tgh'
+        subtitle: 'Jl. Udayana No. 11, Singaraja, Banjar Tegal, Kec. Buleleng, Kabupaten Buleleng, Bali 81116'
       },
       {
         key:2,
         latlng: {
-          latitude:-8.117259,
-          longitude: 115.161429
+          latitude:-8.120593,
+          longitude: 115.090627
         },
         title: 'Universitas Panji Sakti',
-        subtitle: 'Jl. Bisma 22 Banjar Tegal Buleleng'
+        subtitle: 'Jl. Bisma No.22, Banjar Tegal, Singaraja, Kabupaten Buleleng, Bali 81125'
       },
       {
         key:3,
         latlng: {
-          latitude:-8.163638,
-          longitude: 115.106392
+          latitude:-8.118967,
+          longitude: 115.099409
         },
         title: 'Sekolah Tinggi Keguruan Ilmu Pendidikan Agama Hindu',
-        subtitle: 'Jl. Pulau Timur 24 Wilayah Kec Buleleng Lainnya Buleleng'
+        subtitle: 'Jl. Pulau Timor no.24 Singaraja, Banyuning, Kec. Buleleng, Singaraja, Bali 81113'
       }
       ,
       {
         key:4,
         latlng: {
-          latitude:-8.184105,
-          longitude: 115.117730
+          latitude:-8.121219,
+          longitude: 115.094282
         },
         title: 'Sekolah Tinggi Ilmu Ekonomi Satya Darma',
-        subtitle: 'Jl. Pulau Timur 24 Wilayah Kec Buleleng Lainnya Buleleng'
+        subtitle: 'Jl. Yudistira No.11, Kendran, Kec. Buleleng, Kabupaten Buleleng, Bali 81112'
       }
    ]
   };
@@ -77,7 +77,7 @@ export default class App extends Component {
               </MapView>
         </View>
         <View style={styles.contFooter}>
-           <Text style={styles.textFooter}> putridarmaningsih@gmail.com </Text>
+           <Text style={styles.textFooter}> @putriii_d </Text>
         </View>
       </View>
     );
@@ -92,7 +92,7 @@ const styles = StyleSheet.create({
       flex : 1
   },
   contHeader: {
-    backgroundColor: 'green',
+    backgroundColor: '#C62828',
     alignItems: 'center',
     justifyContent: 'center',
     flex: 1,
@@ -108,7 +108,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   contFooter: {
-    backgroundColor: 'green',
+    backgroundColor: '#C62828',
     alignItems: 'center',
     justifyContent: 'center',
     flex: 1,
@@ -122,3 +122,4 @@ const styles = StyleSheet.create({
   }
 
 });
+
